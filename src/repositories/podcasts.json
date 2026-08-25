@@ -1,20 +1,94 @@
 [
   {
-    "podcastName": "flow",
-    "episode": "CBUM - Flow #319",
-    "videoId": "pQSuQmUfS30",
-    "categories": ["saúde", "esporte", "bodybuilder"]
+    "podcastName": "joel",
+    "episode": "Por Que a SAÚDE MENTAL Vai Piorar nos Próximos Anos? (ANA BEATRIZ BARBOSA) | JOTA JOTA PODCAST #261",
+    "videoId": "G4PUkK6u66k",
+    "categories": ["saude", "saude-mental", "comportamento"]
   },
   {
-    "podcastName": "flow",
-    "episode": "RUBENS BARRICHELLO - Flow #339",
-    "videoId": "4KDGTdiOV4I",
-    "categories": ["esporte", "corrida"]
+    "podcastName": "joel",
+    "episode": "IRONMIND: DO QUE SERÁ QUE VOCÊ É CAPAZ? (PABLO MARÇAL E MARCOS PAULO) | JOTA JOTA PODCAST #143",
+    "videoId": "8Bkl7KEbw2Q",
+    "categories": ["mentalidade", "performance", "empreendedorismo"]
   },
   {
-    "podcastName": "venus",
-    "episode": "Pablo- venus #339",
-    "videoId": "4KDGTdiOV40",
-    "categories": ["corrida"]
+    "podcastName": "joel",
+    "episode": "Como Controlar a Ansiedade e Parar de Se Autossabotar (AUGUSTO CURY) | JOTA JOTA PODCAST #256",
+    "videoId": "vbZquVH5bcs",
+    "categories": ["saude", "saude-mental", "ansiedade"]
+  },
+  {
+    "podcastName": "joel",
+    "episode": "Como a SAÚDE MENTAL Sustenta o SUCESSO da Família (DRA. ANDRÉA VERMONT) | JOTA JOTA PODCAST #268",
+    "videoId": "CpthJwmTFxg",
+    "categories": ["saude-mental", "família", "comportamento"]
+  },
+  {
+    "podcastName": "joel",
+    "episode": "A TÉCNICA DE LEITURA DE LUIZ FELIPE PONDÉ | JOTA JOTA PODCAST #45",
+    "videoId": "kinuID0pk5M",
+    "categories": ["filosofia", "leitura", "mentalidade"]
+  },
+
+  {
+    "podcastName": "iangcast",
+    "episode": "NÃO ENTRE 2025 SEM ASSISTIR ESSA ENTREVISTA! - PR. JACKSON MARQUES NO IANG CAST",
+    "videoId": "6kmkxxuLMnw",
+    "categories": ["fe", "espiritualidade", "mentalidade"]
+  },
+  {
+    "podcastName": "iangcast",
+    "episode": "COMO DESLIGAR A ANSIEDADE NAS EMOÇÕES - ANDREA VERMONT NO IANG CAST",
+    "videoId": "XtvHUJ_t9j4",
+    "categories": ["saude-mental", "ansiedade", "comportamento"]
+  },
+  {
+    "podcastName": "iangcast",
+    "episode": "[MUNDO ESPIRITUAL] A ENTREVISTA MAIS ESPERADA - INGRID MARIANNO NO IANG CAST",
+    "videoId": "xyuuqklheIw",
+    "categories": ["fe", "espiritualidade", "mundo-espiritual"]
+  },
+  {
+    "podcastName": "iangcast",
+    "episode": "SEU CASAMENTO SERÁ OUTRO DEPOIS DESSE EPISÓDIO! - VERENA ARAUJO NO IANG CAST",
+    "videoId": "6_tf44_aHME",
+    "categories": ["casamento", "relacionamento", "familia"]
+  },
+  {
+    "podcastName": "iangcast",
+    "episode": "O HOMEM QUE NÃO INVESTE EM SUA MULHER NÃO PROSPERA - EDIVALDO SIMÃO NO IANG CAST",
+    "videoId": "iyxcgWYFBVk",
+    "categories": ["casamento", "relacionamento", "familia"]
+  },
+
+  {
+    "podcastName": "brunetcast",
+    "episode": "A complexidade das nossas emoções | BrunetCast com Dr. Augusto Cury",
+    "videoId": "W7n4WzWvggg",
+    "categories": ["saude-mental", "emocoes", "comportamento"]
+  },
+  {
+    "podcastName": "brunetcast",
+    "episode": "OS SEGREDOS DA MENTE | DR. AUGUSTO CURY NO BRUNETCAST",
+    "videoId": "VLhkGpLIBD4",
+    "categories": ["saude-mental", "ansiedade", "mentalidade"]
+  },
+  {
+    "podcastName": "brunetcast",
+    "episode": "Pablo Marçal | BrunetCast",
+    "videoId": "zZPI6CT9FdU",
+    "categories": ["mentalidade", "empreendedorismo", "proposito"]
+  },
+  {
+    "podcastName": "brunetcast",
+    "episode": "Flávio Augusto dá dicas para quem está começando um negócio | BrunetCast",
+    "videoId": "ZiqKAyqskOA",
+    "categories": ["negocios", "empreendedorismo", "vendas"]
+  },
+  {
+    "podcastName": "brunetcast",
+    "episode": "DEIVE LEONARDO | A estratégia para suportar as piores dores da vida - BrunetCast",
+    "videoId": "VVrKCb0ovzg",
+    "categories": ["fe", "proposito", "mentalidade"]
   }
 ]

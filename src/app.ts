@@ -1,5 +1,5 @@
 import * as http from 'http';
-import { getFilterEpisodes, getListEpisodes } from './controllers/podcast-controllers';
+import { getFilterCategory, getFilterEpisodes, getListEpisodes } from './controllers/podcast-controllers';
 import { Routes } from './routes/routes';
 import { HttpMethod } from './utils/http-methods';
 
@@ -12,5 +12,9 @@ export const app = async (req: http.IncomingMessage, res: http.ServerResponse) =
 
   if (req.method === HttpMethod.GET && baseUrl === Routes.EPISODE) {
     await getFilterEpisodes(req, res);
+  }
+
+  if (req.method === HttpMethod.GET && baseUrl === Routes.CATEGORY) {
+    await getFilterCategory(req, res);
   }
 };
