@@ -1,13 +1,13 @@
 # 🎙️ Gerenciador de Podcasts
 
-API desenvolvida em **Node.js e TypeScript** para gerenciamento e consulta de episódios de podcasts em vídeo.
+API desenvolvida em **Node.js e TypeScript** para listar e filtrar episódios de podcasts em vídeo.
 
 ## Funcionalidades
 
-- Listar episódios de podcasts
-- Filtrar episódios pelo nome do podcast
-- Organização por categorias
-- Retorno de dados em JSON
+- Listar episódios
+- Filtrar por podcast
+- Filtrar por categoria
+- Retornar dados em JSON
 
 ## Tecnologias
 
@@ -18,36 +18,37 @@ API desenvolvida em **Node.js e TypeScript** para gerenciamento e consulta de ep
 
 ## Endpoints
 
-### Listar episódios
-
 ```http
 GET /api/list
 ```
 
-### Filtrar episódios
+Lista todos os episódios.
 
 ```http
-GET /api/episode?p=nome-do-podcast
+GET /api/podcasts?p=brunetcast
 ```
 
-Exemplo:
+Filtra pelo nome do podcast.
 
 ```http
-GET /api/episode?p=flow
+GET /api/category?c=mentalidade
 ```
 
-## Executando o projeto
+Filtra os episódios por categoria.
 
-Instale as dependências:
+## Executando
 
 ```bash
 npm install
+npm run start:watch
 ```
 
-Execute o projeto:
+A API estará disponível na porta configurada no arquivo `.env`.
 
-```bash
-npm run start:dev
+Exemplo:
+
+```text
+http://localhost:3333
 ```
 
 ## Estrutura
@@ -66,4 +67,4 @@ src/
 
 ## Objetivo
 
-Projeto desenvolvido para praticar conceitos de desenvolvimento Backend com **Node.js e TypeScript**, utilizando separação de responsabilidades entre controllers, services e repositories.
+Projeto desenvolvido para praticar conceitos de Backend com **Node.js e TypeScript**, utilizando rotas, controllers, services, repositories e separação de responsabilidades.

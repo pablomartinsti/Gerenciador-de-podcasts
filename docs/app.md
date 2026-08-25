@@ -1,17 +1,46 @@
-# Podcast Menager
+# 🎙️ Podcast Manager
 
 ### Descrição
 
-Um app ao estilo netflix, aonde possa centralizar diferentes episódio podcasts separados por categorias
+API para centralizar episódios de podcasts em vídeo, permitindo listar e filtrar conteúdos por podcast e categoria.
 
 ### Domínio
 
-Podcasts feitos em vídeo
+Podcasts em vídeo.
 
 ### Features
 
-- Listar os podcasts em sessões de categorias
-- [saúde,fitness,mentalidade,humor]
-- Filtrar episódios por nome de podcast
+- Listar todos os episódios
+- Filtrar episódios por podcast
+- Filtrar episódios por categoria
+- Categorias como saúde, fitness, mentalidade, humor, entre outras
 
-## Como
+## Endpoints
+
+```http
+GET /api/list
+```
+
+```http
+GET /api/podcasts?p=brunetcast
+```
+
+```http
+GET /api/category?c=mentalidade
+```
+
+## Tecnologias
+
+- Node.js
+- TypeScript
+- HTTP
+- JSON
+
+## Como executar
+
+```bash
+npm install
+npm run start:watch
+```
+
+A aplicação será executada na porta definida no arquivo `.env`.
